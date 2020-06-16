@@ -67,7 +67,7 @@ footer:
   copyright:
 
   # Powered by Hexo & NexT
-  powered: true
+  powered: false
 
   # Beian ICP and gongan information for Chinese users. See: https://beian.miit.gov.cn, http://www.beian.gov.cn
   beian:
@@ -249,10 +249,10 @@ links_settings:
   # Available values: block | inline
   layout: block
 
-# links:
-  # guidelines.cc: http://guidelines.cc/
+links:
+  uxlib: http://uxlib.cn/
   # gitee: https://gitee.com/uwings/guidelines
-  # zhenjing: https://zhenjing.org
+  zhenjing: https://zhenjing.org
   # zhushu: https://www.dongmaoshu.com
 # Sidebar Avatar
 # avatar:
@@ -639,7 +639,7 @@ changyan:
 # Valine
 # For more information: https://valine.js.org, https://github.com/xCss/Valine
 valine:
-  enable: true # When enable is set to be true, leancloud_visitors is recommended to be closed for the re-initialization problem within different leancloud adk version.
+  enable: false # When enable is set to be true, leancloud_visitors is recommended to be closed for the re-initialization problem within different leancloud adk version.
   appid: JeW8RwplkuXg40wcmraekpFX-gzGzoHsz # your leancloud application appid
   appkey: qeE75eJJdUPlFr25LtrESgbv  # your leancloud application appkey
   notify: false # mail notifier, See: https://github.com/xCss/Valine/wiki
@@ -1099,7 +1099,7 @@ vendors:
   # Example:
   # fontawesome: //cdn.jsdelivr.net/npm/font-awesome@4/css/font-awesome.min.css
   # fontawesome: //cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.2/css/font-awesome.min.css
-  fontawesome: /lib/font-awesome/css/fontawesome.min.css
+  fontawesome: //at.alicdn.com/t/font_1888843_irdjak84bpq.css
 
   # Internal version: 2.10.4
   # See: https://www.algolia.com
