@@ -150,17 +150,17 @@ baidu_push: false
 # When running the site in a subdirectory (e.g. yoursite.com/blog), remove the leading slash from link value (/archives -> archives).
 # External url should start with http:// or https://
 menu:
-  home: / || home
-  # about: /about/ || user
-  tags: /tags/ || tags
-  # applications: /applications/ || browser
-  # books: /books/ || book-heart
-  # tools: /tools/ || carrot
-  categories: /categories/ || th
-  archives: /archives/ || archive
-  #schedule: /schedule/ || calendar
-  # sitemap: /sitemap.xml || sitemap
-  # commonweal: /404/ || heartbeat
+  home: / || fa fa-home
+  # about: /about/ || fa fa-user
+  tags: /tags/ || fa fa-tags
+  # applications: /applications/ || fa fa-browser
+  # books: /books/ || fa fa-book-heart
+  # tools: /tools/ || fa fa-carrot
+  categories: /categories/ || fa fa-th
+  archives: /archives/ || fa fa-archive
+  #schedule: /schedule/ || fa fa-calendar
+  # sitemap: /sitemap.xml || fa fa-sitemap
+  # commonweal: /404/ || fa fa-heartbeat
 
 # Enable / Disable menu icons / item badges.
 menu_settings:
@@ -211,9 +211,9 @@ sidebar:
 # Sidebar Avatar
 avatar:
   # Replace the default image and set the url here.
-  url: #/images/avatar.gif
+  url: /images/avatar.jpg
   # If true, the avatar will be dispalyed in circle.
-  rounded: false
+  rounded: true
   # If true, the avatar will be rotated with the cursor.
   rotated: false
 
@@ -249,23 +249,23 @@ links_settings:
   # Available values: block | inline
   layout: block
 
-links:
-  guidelines.cc: http://guidelines.cc/
-  gitee: https://gitee.com/uwings/guidelines
-  zhenjing: https://zhenjing.org
-  zhushu: https://www.dongmaoshu.com
+# links:
+  # guidelines.cc: http://guidelines.cc/
+  # gitee: https://gitee.com/uwings/guidelines
+  # zhenjing: https://zhenjing.org
+  # zhushu: https://www.dongmaoshu.com
 # Sidebar Avatar
-avatar:
+# avatar:
   # In theme directory (source/images): /images/avatar.gif
   # In site directory (source/uploads): /uploads/avatar.gif
   # You can also use other linking images.
-  url: /images/avatar-215x215.png
+  # url: /images/avatar-215x215.png
   # If true, the avatar would be dispalyed in circle.
-  rounded: true
+  # rounded: true
   # The value of opacity should be choose from 0 to 1 to set the opacity of the avatar.
-  opacity: 1
+  # opacity: 1
   # If true, the avatar would be rotated with the cursor.
-  rotated: false
+  # rotated: false
 
 # Table Of Contents in the Sidebar
   #Title: http://yoursite.com
@@ -363,7 +363,7 @@ related_posts:
 # Dependencies: https://github.com/hexojs/hexo-deployer-git
 post_edit:
   enable: false
-  url: https://github.com/user-name/repo-name/tree/branch-name/subdirectory-name # Link for view source
+  # url: https://github.com/user-name/repo-name/tree/branch-name/subdirectory-name # Link for view source
   #url: https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name # Link for fork & edit
 
 # Show previous post and next post in post footer if exists
@@ -454,11 +454,6 @@ bookmark:
   # If manual, only save it by clicking the bookmark-icon.
   save: auto
 
-# `Follow me on GitHub` banner in the top-right corner.
-github_banner:
-  enable: false
-  permalink: https://github.com/yourname
-  title: Follow me on GitHub
 
 
 # ---------------------------------------------------------------
@@ -513,39 +508,6 @@ font:
     external: true
     family:
 
-
-# ---------------------------------------------------------------
-# SEO Settings
-# ---------------------------------------------------------------
-
-# Disable Baidu transformation on mobile devices.
-disable_baidu_transformation: false
-
-# If true, site-subtitle will be added to index page.
-# Remember to set up your site-subtitle in Hexo `_config.yml` (e.g. subtitle: Subtitle)
-index_with_subtitle: false
-
-# Automatically add external URL with Base64 encrypt & decrypt.
-exturl: false
-
-# Google Webmaster tools verification.
-# See: https://www.google.com/webmasters
-google_site_verification:
-
-# Bing Webmaster tools verification.
-# See: https://www.bing.com/webmaster
-bing_site_verification:
-
-# Yandex Webmaster tools verification.
-# See: https://webmaster.yandex.ru
-yandex_site_verification:
-
-# Baidu Webmaster tools verification.
-# See: https://ziyuan.baidu.com/site
-baidu_site_verification:
-
-# Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO.
-baidu_push: false
 
 
 # ---------------------------------------------------------------
@@ -847,9 +809,6 @@ baidu_analytics: # <app_id>
 # Growingio Analytics
 growingio_analytics: # <project_id>
 
-# CNZZ count
-cnzz_siteid:
-
 # Show number of visitors of each article.
 # You can visit https://leancloud.cn to get AppID and AppKey.
 # AppID and AppKey are recommended to be the same as valine's for counter compatibility.
@@ -1054,7 +1013,7 @@ vendors:
   # Internal version: 5.13.0
   # fontawesome: //cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css
   # fontawesome: //cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css
-  fontawesome:
+  # fontawesome: /lib/font-awesome/css/font-awesome.min.css 
 
   # MathJax
   # mathjax: //cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
@@ -1140,7 +1099,7 @@ vendors:
   # Example:
   # fontawesome: //cdn.jsdelivr.net/npm/font-awesome@4/css/font-awesome.min.css
   # fontawesome: //cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.2/css/font-awesome.min.css
-  fontawesome: /lib/font-awesome/css/font-awesome.min.css
+  fontawesome: /lib/font-awesome/css/fontawesome.min.css
 
   # Internal version: 2.10.4
   # See: https://www.algolia.com
