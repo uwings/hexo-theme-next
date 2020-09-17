@@ -7,7 +7,7 @@
 		"uuidString": "F379AB1C-692C-4958-BE3E-586AFBD76FEB"
 		}
 	],
-"creatorBuild": "26268",
+"creatorBuild": "26667",
 "files": {
 	"\/post-collapse.styl": {
 		"aP": 0,
@@ -187,7 +187,8 @@
 	"creationDate": 613996178,
 	"displayValue": "post",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-confusedBaby"
+	"iconImageName": "meme-confusedBaby",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -1990,6 +1991,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {

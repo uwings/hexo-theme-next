@@ -7,7 +7,7 @@
 		"uuidString": "6BB9BFAD-D4D5-440C-BCC5-8AAFCC514785"
 		}
 	],
-"creatorBuild": "26268",
+"creatorBuild": "26667",
 "files": {
 	"\/sidebar-author-links.styl": {
 		"aP": 0,
@@ -148,7 +148,8 @@
 	"creationDate": 613988846,
 	"displayValue": "sidebar",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-greg"
+	"iconImageName": "meme-greg",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -1951,6 +1952,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {
